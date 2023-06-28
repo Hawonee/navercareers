@@ -1,0 +1,69 @@
+.blind { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); margin: -1px; } 
+
+.footer .relate-site .btn-site::before,
+.sc-support .link-support::after,
+.control-area button,
+.sc-teams .teams-list .link-teams .count::before,
+.sc-teams .group-search .icon-wrap::before,
+header .logo{
+  background: url(../images/sp_pc.png) no-repeat;
+  background-size: 328px 205px;
+}
+.common-inner {
+  max-width: 1200px;
+  padding: 0 104px;
+  margin: 0 auto;
+}
+.common-inner2{
+  max-width: 1920px;
+  padding: 0 104px 0 98px;
+  margin: 0 auto;
+}
+.m-block{display: none;}
+
+@media (max-width:1280px) {
+  .common-inner2{padding: 0 22px;}
+
+  .header .btn-menu.on,
+  .header .logo,.header .btn-menu{
+  background-image: url(https://recruit.navercorp.com/share/tmplat/naver/img/sp_mo.png); 
+  background-size: 195px 181px;
+}
+}
+@media (max-width:1024px) {
+  .common-inner{
+    padding: 0 104px;
+    margin: 0 auto;
+  }
+
+
+  .header .logo,.header .btn-menu{
+  background-image: url(https://recruit.navercorp.com/share/tmplat/naver/img/sp_mo.png); 
+  background-size: 195px 181px;
+  }
+}
+/* 모바일 */
+@media (max-width:767px) {
+  .m_block{display: block;}
+  .common-inner{
+    padding: 0 22px;
+  }
+
+  
+  [class*="sc-"] .control-area>button,
+  .sc-support .link-support::after,
+  .sc-teams .teams-list .link-teams .count::before,
+  .sc-teams .m-search-box .ic-search,
+  .header .logo,
+  .header .btn-menu{
+  background-image: url(https://recruit.navercorp.com/share/tmplat/naver/img/sp_mo.png); 
+  background-size: 195px 181px;
+}
+
+.sc-teams .search-area .btn-jobs {
+  background: url(../images/sp_pc.png) no-repeat;
+  background-size: 328px 205px;
+}
+
+}
+
